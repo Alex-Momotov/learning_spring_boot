@@ -1,0 +1,6 @@
+//----------------------------------------------------------------------------------------------------------------------
+    Basics
+- Go to https://start.spring.io/, select spring boot version, dependencies and download the zip.
+- Zip will contain the project layout, initialise your IntelliJ project from the generated directory.
+
+//----------------------------------------------------------------------------------------------------------------------
