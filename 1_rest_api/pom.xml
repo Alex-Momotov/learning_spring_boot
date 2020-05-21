@@ -12,5 +12,11 @@
     <groupId>com.company.restapi</groupId>
     <artifactId>1_rest_api</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

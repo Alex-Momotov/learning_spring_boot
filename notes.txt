@@ -4,3 +4,38 @@
 - Zip will contain the project layout, initialise your IntelliJ project from the generated directory.
 
 //----------------------------------------------------------------------------------------------------------------------
+    1_rest_api
+- Adding the below dependency will automatically add actuator to the application.
+  <dependencies>
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-actuator</artifactId>
+      </dependency>
+  </dependencies>
+  The actuator exposes the following monitoring endpoints:
+    - localhost:8080/errors
+    - localhost:8080/actuator/health        (used to check health of the application)
+    - localhost:8080/actuator/info
+    - localhost:8080/actuator
+
+
+//----------------------------------------------------------------------------------------------------------------------
+    IoC Containers
+
+Bean - an object that is instantiated, assembled, or otherwise managed by Spring IoC container. These beans are created
+       with the configuration metadata (like XML) supplied to the container.
+
+Dependency injection - A design pattern when a class uses an interface instead of a hard-coded implementation to perform
+                       it's tasks. The implementation of that interface is provided to that class either in constructor,
+                       or in the method that need the dependency.
+
+Inversion of control - A generic principle where instead of application calling methods of the framework, the framework
+                       calls the methods of the application.
+
+IoC - Inversion Of Control principle is also known as Dependency Injection.
+IoC container - Inversion of Control container.
+
+Left at: https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#spring-core
+         https://spring.io/projects/spring-framework#overview
+
+
